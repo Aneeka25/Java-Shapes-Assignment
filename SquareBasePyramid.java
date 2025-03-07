@@ -8,3 +8,8 @@ class SquareBasePyramid extends Shape {
         double slantHeight = Math.sqrt((dim_one / 2) * (dim_one / 2) + dim_two * dim_two);
         return (dim_one * dim_one) + 2 * dim_one * slantHeight;
     }
+
+     public double calculateVolume() {
+        return (1.0 / 3.0) * (dim_one * dim_one) * dim_two;
+    }
+
