@@ -12,3 +12,7 @@ class Circle extends Shape {
         return 2 * Math.PI * dim_one;
     }
 
+    public double calculateVolume() {
+        return 0; // No volume for a circle
+    }
+}
