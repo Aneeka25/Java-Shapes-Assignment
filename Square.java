@@ -11,3 +11,8 @@ class Square extends Shape {
     public double calculatePerimeter() {
         return 4 * dim_one;
     }
+
+       public double calculateVolume() {
+        return 0; // No volume for a square
+    }
+}
