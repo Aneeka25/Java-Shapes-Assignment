@@ -13,3 +13,8 @@ class SquareBasePyramid extends Shape {
         return (1.0 / 3.0) * (dim_one * dim_one) * dim_two;
     }
 
+      public double calculatePerimeter() {
+        return 4 * dim_one;
+    }
+}
+
