@@ -12,3 +12,7 @@ class Cylinder extends Shape {
         return Math.PI * dim_one * dim_one * dim_two;
     }
 
+      public double calculatePerimeter() {
+        return 0; // No single perimeter for a cylinder
+    }
+}
